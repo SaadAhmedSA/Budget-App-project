@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Budget</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    
+<div id="main">
+    <div class="inner">
+        <h2>Enter Budget</h2>
+        <input type="text" placeholder="Enter your Budget" id="Budget"><br>
+        <button onclick="foo()">Add Budget</button>
+    </div>
+    <div class="inner">
+        <h2>Expense</h2>
+        <input type="text" placeholder="Enter your expense name" id="Expname"><br>
+        <input type="text" placeholder="Enter your expense cost" id="Expcost"><br>
+        <button onclick="hello()">Add Expense</button>
+    </div>
+</div>
+<div id="display">
+    <div class="iner">
+<h3>Total Budget</h3>
+<p id="buddisplay">0</p>
+    </div>
+    <div class="iner">
+        <h3>Expense</h3>
+        <p id="expdisplay">0</p>
+    </div>
+    <div class="iner">
+        <h3 >Balance</h3>
+        <p id="balandisplay">0</p>
+    </div>
+
+</div>
+<h3 style="margin-top: 15px; text-align: center;">Expense list</h3>
+
+<div >
+<center>
+    <table id="table">
+
+    </table>
+</center>
+</div>
+
+
+
+
+<script src="app.js"></script>
+</body>
+</html>
